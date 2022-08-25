@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.card{
+    width: 500px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    overflow: hidden;
+}
+
+.card__header{
+    background-color: rgb(0, 217, 255);
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+.card__header--profile-photo{
+    background-color: red;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    border-radius: 50%;
+    left: 160px;
+    top: 70px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-image: url(assets/7.jpg);
+    background-size: cover;
+    border: 3px solid #fff;
+}
+
+.card__section{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 130px;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.card__section--name{
+    margin-bottom: 15px;
+}
+
+.card__section--age{
+    font-size: 2.0rem;
+    color: rgb(160, 159, 158);
+    background-color: rgba(127, 255, 212, 0.705);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 7px;
+}
+
+.card__section--city{
+    color: rgb(160, 159, 158);
+}
+
+.card__footer{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    top: 80px;
+    border-top: 1px solid #ccc;
+}
+
+.card__footer--stats{
+    display: inline-block;
+    font-size: 5.5rem;
+    width: 166px;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.card__stats--des{
+    color: rgb(160, 159, 158);
+    font-size: 2.5rem;
+    margin-top: 10px;
+
+}
+
+.buttons{
+    width: 500px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-size: 4.5rem;
+    
+}
+
+.text{
+    width: 150px;
+    padding: 10px 5px;
+    border: 0;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: crimson;
+    color: #fff;
+    transition:  all .25s;
+    -webkit-transition:  all .25s;
+    -moz-transition:  all .25s;
+    -ms-transition:  all .25s;
+    -o-transition:  all .25s;
+}
+
+.text:nth-child(1){
+    margin-left: 100px;
+    background-color: hsl(180, 100%, 50%);
+}
+
+.text:hover{
+    cursor: pointer;
+    background-color: rgb(117, 247, 247);
+    padding: 13px 5px;
+    width: 160px;
+    
+}
+
+.text:last-child:hover{
+    background-color: rgb(245, 99, 128);
+    padding: 13px 5px;
+    width: 160px;
+}
